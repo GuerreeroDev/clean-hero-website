@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(Poppins-Black.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fafaf7;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  background-color: #1b1b1be0;
+  width: 0.65vw;
+  height: 0.65vw;
+  border-radius: 50%;
+  top: 24%;
+  left: 26%;
+}
+
+h2 {
+  font-family: 'Syne', serif;
+    text-align: center;
+  font-size: 1.25vh;
+  font-weight: 600;
+    text-transform: uppercase;
+    top: 24.85vh;
+    position: absolute;
+    color: #181818;
+    z-index: 3;
+}
+
+
+h1 {
+    max-width: 150vh;
+    font-family: 'Poppins', sans-serif;
+      font-weight: 900;
+    font-size: clamp(10px, 12.4vw, 186px);
+    line-height: .86;
+    text-align: center;
+    letter-spacing: -.04em;
+    margin: 18px 0 0;
+    text-transform: uppercase;
+    color: #181818;
+    z-index: 3;
+}
+
+strong {
+  text-transform: none;
+  color: #181818;
+  font-family: 'Syne', serif;
+  font-size: 1.25vh;
+  margin-left: 6.5vh;
+  font-weight: 600;
+  letter-spacing: 7vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+
+h3 {
+  font-family: 'Syne', serif;
+    text-align: center;
+        padding: 0.65vh 0.8vh;
+  font-size: 1.45vh;
+  font-weight: 700;
+  letter-spacing: -0.01vh;
+  left: 3.5vh;
+    text-transform: uppercase;
+    top: 3.15vh;
+    position: absolute;
+    color: #181818;
+    z-index: 3;
+    transition: 0.3s all ease-in-out;
+}
+
+h3:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.065);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h4 {
+  font-family: 'Syne', serif;
+    right: 3.5vh;
+    top: 3.15vh;
+    position: absolute;
+    color: #181818;
+    z-index: 3;
+    transition: 0.3s all ease-in-out;
+}
+
+h4 svg {
+  padding: 0.65vh 0.8vh;
+  width: 1.6vh;
+  height: 1.6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4:hover {
+  background-color: rgba(0, 0, 0, 0.065);
+    border-radius: 4px;
+    cursor: pointer;
+}
